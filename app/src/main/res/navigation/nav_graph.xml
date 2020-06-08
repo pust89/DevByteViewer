@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/devByteFragment">
+    <fragment
+        android:id="@+id/devByteFragment"
+        android:name="com.pustovit.devbyteviewer.ui.DevByteFragment"
+        android:label="dev_byte_fragment"
+        tools:layout="@layout/dev_byte_fragment" />
+</navigation>
